@@ -1,0 +1,121 @@
+/* basic styles */
+*{
+    box-sizing: border-box;
+}
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+a{
+    text-decoration: none;
+}
+.container{
+
+    background: #111 no-repeat;
+    background-image: -webkit-gradient(radial, 50% 0, 150, 50% 0, 300, from(#444), to(#111));
+    height: 1200px;
+    width: 1265px;
+    padding: 20px 0 0 10px;
+}
+h1{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+header{
+    margin: 50px auto;
+}
+nav{
+    text-align: center;
+}
+.nav-menu{
+    width: 64px;
+    margin: 0 auto;
+}
+
+nav li{
+    margin-bottom: 6px;
+}
+
+nav a{
+    display: block;
+    width: 38px;
+    height: 38px;
+    position: relative;
+}
+nav a:hover{
+    box-shadow: 0 0 5px #9ddff5;
+}
+.home{
+    background: url("../img/navigation.jpg") 0 0 no-repeat;
+}
+.about{
+    background: url("../img/navigation.jpg") 25% 0 no-repeat;
+}
+.services{
+    background: url("../img/navigation.jpg") 50% 0 no-repeat;
+}
+.portfolio{
+    background: url("../img/navigation.jpg") 75% 0 no-repeat;
+}
+.contact{
+    background: url("../img/navigation.jpg") 100% 0 no-repeat;
+}
+.nav-menu span {
+    width: 0;
+    left: 38px;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Myriad Pro',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    white-space: nowrap;
+    line-height: 39px;
+    transition: 0.25s;
+}
+.nav-menu a:hover span {
+    width: auto;
+    padding: 0 20px;
+    overflow: visible;
+}
+.nav-menu .home span {
+    background-color: #7da315;
+    color: #3d4f0c;
+    text-shadow: 1px 1px 0 #99bf31;
+}
+.nav-menu .about span {
+    background-color: #1e8bb4;
+    color: #223a44;
+    text-shadow: 1px 1px 0 #44a8d0;
+}
+.nav-menu .services span {
+    /*background-color: #fe8f30;*/
+    background-color: #c86c1f;
+    color: #5a3517;
+    text-shadow: 1px 1px 0 #d28344;
+}
+.nav-menu .portfolio span {
+    background-color: #d0a525;
+    color: #604e18;
+    text-shadow: 1px 1px 0 #d8b54b;
+}
+.nav-menu .contact span {
+    background-color: #af1e83;
+    color: #460f35;
+    text-shadow: 1px 1px 0 #d244a6;
+}
+
+
+/* header end */
+
+
+/* main */
+
+
+/* main end */
+
+/* footer */
+/* footer end */
